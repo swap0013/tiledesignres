@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-image: url('2152177.jpg'); height: 700px;background-repeat: no-repeat;
+    background-position: center; background-size: cover;">
+
+<div class="main">
+    <div class="header">
+
+        <div class="sidebar">
+
+            <li onclick=hidesidebar()><i style="color: black;" class="fa-solid fa-xmark"> TILEDESIGN</i></li>
+            
+            <li><a href="./website3.html">HOME</a></li>
+            <li> <a href="./about.html"> ABOUT</a></li>
+            <li><a href="./portfolio.html">PORTFOLIO</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            
+      
+            
+        </div>
+  
+      <div class="left">
+      
+          <li1><h1>TILE<b>DESIGN</b></h1></li1>
+      </div>
+  
+      <div class="center">
+  
+          <li><a class="res" href="./website3.html">HOME</a></li>
+          <li> <a class="res" href="./about.html"> ABOUT</a></li>
+          <li><a class="res" href="./portfolio.html">PORTFOLIO</a></li>
+          <li><a class="res" href="./blog.html">BLOG</a></li>
+          <li><a class="res" href="./contact.html">CONTACT</a></li>
+          <li onclick=showsidebar()><i class="fa-solid fa-bars"></i></li>
+          
+      </div>
+    </div>
+
+
+      <div class="form">
+    <form>
+
+        <fieldset>
+            <legend>FORM</legend>
+           <p> <label>Name:</label>
+            <input type="text"><br></p><br>
+
+          
+
+            <p> <label>Email Id:</label>
+            <input type="email"><br></p><br>
+            <p><label>Password:</label>
+            <input type="password"><br></p><br>
+
+            
+
+            <p> <label>Mob No.:</label>
+            <input type="number"><br></p><br>
+
+            
+
+            
+
+                <button>Submit</button>
+
+        </fieldset>
+    
+        </form>
+    </div>
+        </div>
+
+        <script>
+            function showsidebar(){
+             const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'block'
+            }
+            function hidesidebar(){
+             const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'none'
+            }
+            
+          </script>
+    
+</body>
+</html>
